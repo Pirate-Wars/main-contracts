@@ -12,7 +12,7 @@ contract ARGH_Token is ERC20, AccessControl, ERC20Burnable, Pausable {
 
     uint256 internal _maxAmountMintable = 100_000_000e18;
 
-    constructor() ERC20("Pirate Wars", "ARGH") {
+    constructor() ERC20("PirateWars", "ARGH") {
         _setupRole(DEFAULT_ADMIN_ROLE, msg.sender);
     }
 
